@@ -12,6 +12,9 @@ Site web d'Orange County Lettings
 - pip freeze > requirements.txt
 - flyctl tokens create deploy -x 999999h
 - Ajouter le résultat dans un secret github action nommé FLY_API_TOKEN 
+- Ajouter un fichier dans .github/workflows/fly.yml
+- Coller le contenu https://fly.io/docs/app-guides/continuous-deployment-with-github-actions/
+- Renommer la branche main => master si besoin
 
 ## Développement local
 
