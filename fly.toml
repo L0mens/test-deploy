@@ -1,6 +1,6 @@
-# fly.toml file generated for silent-mountain-1262 on 2023-03-30T14:31:52+02:00
+# fly.toml file generated for letting-test on 2023-04-20T14:26:41+02:00
 
-app = "silent-mountain-1262"
+app = "letting-test"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "cdg"
