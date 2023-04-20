@@ -2,6 +2,17 @@
 
 Site web d'Orange County Lettings
 
+## Dploiment
+
+- fly launch
+- Commenter les collect static
+- Changer le nom de l'app dans gunicorn => oc_lettings_site.wsgi
+- Remove le sqlite du dockerignore
+- pip install gunicorn
+- pip freeze > requirements.txt
+- flyctl tokens create deploy -x 999999h
+- Ajouter le résultat dans un secret github action nommé FLY_API_TOKEN 
+
 ## Développement local
 
 ### Prérequis
