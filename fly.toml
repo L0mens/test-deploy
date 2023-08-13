@@ -1,4 +1,4 @@
-# fly.toml file generated for letting-test on 2023-04-20T14:26:41+02:00
+# fly.toml file generated for letting-test on 2023-08-13T17:57:21+02:00
 
 app = "letting-test"
 kill_signal = "SIGINT"
